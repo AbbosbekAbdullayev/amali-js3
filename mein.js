@@ -1,16 +1,6 @@
-// let yosh = Number(print('yoshingiz'));
-let yosh = prompt("yoshingizni kiriting");
-yosh = Number(yosh);
-
-if(yosh ){
-    if(yosh>=16) {
-        console.log('siz pasport olasiz')
-    }
-    else{
-        console.log("siz pasport olmaysiz")
-    }
+let image = document.getElementById('img');
+let atugma = document.getElementById('atugma');
+let btugma = document.getElementById('btugma');
+atugma.onclick=function(){
+    image.style.display='none'
 }
-else{
-    console.log("togri qiymat kirit!")
-}
-console.log(yosh)
