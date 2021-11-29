@@ -1,9 +1,13 @@
-let yosh = Number(print("yoshingizni kiriting"));
+// let yosh = Number(print('yoshingiz'));
+let yosh = prompt("yoshingizni kiriting");
+yosh = Number(yosh);
 
-
-if(yosh>=16) {
-    console,log("siz pasport olasiz");
+if(yosh!==nan){
+    if(yosh>=16) {
+        console.log('siz pasport olasiz')
+    }
+    else{
+        console.log("siz pasport olmaysiz")
+    }
 }
-else{
-    console.log("siz pasport olmaysiz")
-}
+console.log(yosh)
