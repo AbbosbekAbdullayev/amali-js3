@@ -2,7 +2,7 @@
 let yosh = prompt("yoshingizni kiriting");
 yosh = Number(yosh);
 
-if(yosh){
+if(yosh ){
     if(yosh>=16) {
         console.log('siz pasport olasiz')
     }
